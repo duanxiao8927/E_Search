@@ -43,7 +43,7 @@ public class MainActivity extends EBaseActivity {
             @Override
             public void onSuccess(PhoneInfo data) {
                 Log.i("归属地",""+data.getProvince());
-                tv.setText(""+data.getProvince());
+                tv.setText("AAA"+data.getProvince());
             }
 
             @Override
