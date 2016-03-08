@@ -42,7 +42,7 @@ public class MainActivity extends EBaseActivity {
         this.appAction.phoneInfo("13681885767", new ActionCallbackListener<PhoneInfo>() {
             @Override
             public void onSuccess(PhoneInfo data) {
-                Log.i("归属地",""+data.getProvince());
+                Log.i("归属地","qqqqq"+data.getProvince());
                 tv.setText("AAA"+data.getProvince());
             }
 
