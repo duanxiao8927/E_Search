@@ -15,6 +15,7 @@ import com.edison.model.PhoneInfo;
  */
 public class MainActivity extends EBaseActivity {
 
+
     private TextView tv;
     private Button btn ;
 
