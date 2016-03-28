@@ -18,6 +18,7 @@ public class MainActivity extends EBaseActivity {
 
     private TextView tv;
     private Button btn ;
+    private String abc = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
