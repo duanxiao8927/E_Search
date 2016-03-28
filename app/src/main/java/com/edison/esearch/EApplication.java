@@ -9,6 +9,7 @@ import com.edison.eaction.AppActionImpl;
  * Created by xiaotufei on 16/3/6.
  */
 public class EApplication extends Application{
+
     private AppAction appAction;
 
     @Override
