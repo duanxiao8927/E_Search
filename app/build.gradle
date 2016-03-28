@@ -24,6 +24,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
@@ -33,5 +35,4 @@ dependencies {
     compile project(':eaction')
     compile project(':model')
     compile project(':netapi')
-
 }
