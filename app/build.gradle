@@ -32,6 +32,11 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.0'
+    compile 'com.mob.tools:mobtools:1.0.0'
+    compile 'sharesdk.core:sharesdkcore:2.6.3'
+    compile 'sharesdk.wechat:sharesdkwechat:2.6.3'
+    compile 'sharesdk.wechat.core:sharesdkwechatcore:2.6.3'
+    compile 'sharesdk.wechat.moments:sharesdkwechatmoments:2.6.3'
     compile project(':eaction')
     compile project(':model')
     compile project(':netapi')
