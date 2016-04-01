@@ -10,8 +10,6 @@ package com.edison.esearch.wxapi;
 
 import android.content.Intent;
 import android.widget.Toast;
-
-
 import cn.sharesdk.wechat.utils.WXAppExtendObject;
 import cn.sharesdk.wechat.utils.WXMediaMessage;
 import cn.sharesdk.wechat.utils.WechatHandlerActivity;
@@ -19,21 +17,7 @@ import cn.sharesdk.wechat.utils.WechatHandlerActivity;
 /** 微信客户端回调activity示例 */
 public class WXEntryActivity extends WechatHandlerActivity {
 
-	@Override
-	protected void onResume() {
-		super.onResume();
-//        MobclickAgent.onPageStart(WXEntryActivity.class.getSimpleName());
-//        MobclickAgent.onResume(this);
-	}
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-//        MobclickAgent.onPageEnd(WXEntryActivity.class.getSimpleName());
-//        MobclickAgent.onPause(this);
-    }
-
-    /**
+	/**
 	 * 处理微信发出的向第三方应用请求app message
 	 * <p>
 	 * 在微信客户端中的聊天页面有“添加工具”，可以将本应用的图标添加到其中
