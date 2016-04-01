@@ -5,7 +5,7 @@ android {
         esearch {
             keyAlias 'ESearch'
             keyPassword 'qwertyuiop'
-            storeFile file('/Users/xiaotufei/appkey/esearch_key.jks')
+            storeFile file('esearch_key.jks')
             storePassword 'qwertyuiop'
         }
     }
